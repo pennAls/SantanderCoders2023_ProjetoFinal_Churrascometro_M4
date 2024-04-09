@@ -3,6 +3,11 @@ const email = document.getElementById("email");
 const cep = document.getElementById("CEP");
 const submit = document.getElementById("button_login");
 
+const validarEmail = (email) => {
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return emailRegex.test(email);
+};
+
 async function sessionID() {
   try {
     const response = await fetch(`https://www.uuidgenerator.net/api/version4`, { method: "GET" });
@@ -45,6 +50,11 @@ const validarLogin = () => {
     cepValido = false;
   }
   if (!cepValido) {
+    return;
+  }
+
+  if (!validarEmail(email.value)) {
+    window.alert("E-mail inválido");
     return;
   }
 

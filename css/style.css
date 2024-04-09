@@ -1,0 +1,155 @@
+:root {
+  font-size: 62.5%;
+  --color1: #262525;
+  --color2: #525252;
+  --color3: #e6ddbc;
+  --color4: #822626;
+  --color5: #690202;
+}
+
+* {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: auto;
+}
+
+body {
+  background-color: #e6ddbc;
+}
+
+header {
+  width: 100%;
+  background-color: #690202;
+  height: 120px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  border-bottom: 1.8px;
+}
+
+.namePage {
+  font-family: "Bungee Spice", sans-serif;
+  color: var(--color3);
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 30px;
+  height: 110px;
+  gap: 90px;
+}
+
+hr {
+  color: #e6ddbc;
+  border: none;
+  border-top: 5px solid #e6ddbc;
+}
+
+.formulario {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://static.vecteezy.com/ti/fotos-gratis/p1/6898537-fogo-chamas-em-preto-fundo-gratis-foto.jpg");
+  background-size: cover;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.form {
+  width: 500px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: #690202;
+}
+
+input {
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  width: 400px;
+  height: 40px;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-family: "Bungee Spice", sans-serif;
+  background-color: #e6ddbc;
+}
+#name::placeholder {
+  font-family: "Bungee Spice", sans-serif;
+  font-size: 2rem;
+  background-color: #e6ddbc;
+}
+
+#email::placeholder {
+  font-family: "Bungee Spice", sans-serif;
+  font-size: 2rem;
+  background-color: #e6ddbc;
+}
+
+#CEP::placeholder {
+  font-family: "Bungee Spice", sans-serif;
+  font-size: 2rem;
+  background-color: #e6ddbc;
+}
+
+.check {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#checkbox {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #e6ddbc;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+#checkbox + label {
+  font-family: "Bungee Spice", sans-serif;
+  font-size: 1.5rem;
+}
+
+#button_login {
+  background-color: #e6ddbc;
+  width: 200px;
+  height: 50px;
+  margin: 0 auto;
+  display: block;
+  font-family: "Bungee Spice", sans-serif;
+}
+
+footer {
+  background-color: #e6ddbc;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  font-family: "Bungee Spice", sans-serif;
+  font-size: 2rem;
+}
+
+.footer-content p {
+  margin: 0;
+}

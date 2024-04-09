@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/tabela_churras.css " />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap"
+      rel="stylesheet" />
+    <title>Churrascômetro</title>
+  </head>
+  <header>
+    <div class="namePage">
+      <h1>Churrascômetro Online</h1>
+      <img
+        style="height: 110px"
+        src="/imgs/churras.png"
+        alt="Imagem fundo na grelha" />
+      <img
+        style="height: 200px"
+        src="/imgs/espeto.png"
+        alt="Imagem espeto de churrasco" />
+      <img
+        style="height: 110px"
+        src="/imgs/chef.png"
+        alt="Imagem churrasqueiro" />
+    </div>
+  </header>
+  <img
+    style="width: 100%"
+    src="/imgs/churrascompleto.jpg"
+    alt="Imagem de carvão na brasa" />
+  <body>
+    <table>
+      <tbody>
+        <tr>
+          <th class="pessoas">PESSOAS</th>
+          <td class="pessoas">QUANTIDADE</td>
+          <td>
+            <div class="fundo">
+              <figure>
+                <figcaption>KG DE CARNE</figcaption>
+                <img
+                  class="item"
+                  src="/imgs/carne.jpg"
+                  alt="Imagem de um corte de canne" />
+              </figure>
+            </div>
+          </td>
+          <td>
+            <div class="fundo">
+              <figure>
+                <figcaption>PÃO DE ALHO</figcaption>
+                <img
+                  class="item"
+                  src="/imgs/PÃODEALHO.jpg"
+                  alt="Imagem de um pão de alho" />
+              </figure>
+            </div>
+          </td>
+          <td>
+            <div class="fundo">
+              <figure>
+                <figcaption>CARVÃO</figcaption>
+                <img
+                  class="item"
+                  src="/imgs/CARVAO.png"
+                  alt="Imagem de carvão na brasa" />
+              </figure>
+            </div>
+          </td>
+          <td>
+            <div class="fundo">
+              <figure>
+                <figcaption>SAL</figcaption>
+                <img
+                  class="item"
+                  src="/imgs/SAL.jpg"
+                  alt="Imagem de sal grosso" />
+              </figure>
+            </div>
+          </td>
+          <td>
+            <div class="fundo">
+              <figure>
+                <figcaption>GELO</figcaption>
+                <img class="item" src="/imgs/gelo.webp" alt="Imagem de gelo" />
+              </figure>
+            </div>
+          </td>
+          <td>
+            <div class="fundo">
+              <figure>
+                <figcaption>REFRIFERANTE</figcaption>
+                <img
+                  class="item"
+                  src="/imgs/Refrigerante-1.jpg"
+                  alt="Imagem de um copo de refrigerante" />
+              </figure>
+            </div>
+          </td>
+          <td>
+            <div class="fundo">
+              <figure>
+                <figcaption>ÁGUA</figcaption>
+                <img
+                  class="item"
+                  src="/imgs/agua.jpg"
+                  alt="Imagem de uma jarra de água" />
+              </figure>
+            </div>
+          </td>
+          <td>
+            <div class="fundo">
+              <figure>
+                <figcaption>CERVEJA</figcaption>
+                <img
+                  class="item"
+                  src="/imgs/beer.webp"
+                  alt="Imagem de copos de cerveja" />
+              </figure>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th class="pessoas">HOMENS:</th>
+          <td id="n_homens"></td>
+          <td id="menmeat"></td>
+          <td id="menPao"></td>
+          <td rowspan="3" id="carvao"></td>
+          <td rowspan="3" id="sal"></td>
+          <td rowspan="3" id="gelo"></td>
+          <td rowspan="3" id="refri"></td>
+          <td rowspan="3" id="agua"></td>
+          <td rowspan="3" id="beer"></td>
+        </tr>
+        <tr>
+          <th class="pessoas">MULHERES:</th>
+          <td id="n_mulheres"></td>
+          <td id="womanmeat"></td>
+          <td id="womanPao"></td>
+        </tr>
+        <tr>
+          <th class="pessoas">CRIANÇAS:</th>
+          <td id="n_child"></td>
+          <td id="childmeat"></td>
+          <td id="childPao"></td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <br />
+    <br />
+    <section class="preço">
+      <div class="lista_preço">
+        <input type="number" id="carne" placeholder="Valor do KG da Carne" />
+        <input
+          type="number"
+          id="pão"
+          placeholder="Valor do Pão de Alho (Pacote de 12)" />
+        <input type="number" id="carvão" placeholder="Valor do KG Carvão" />
+        <input type="number" id="salkg" placeholder="Valor do KG do Sal" />
+        <input type="number" id="gelokg" placeholder="Valor do KG do Gelo" />
+        <input
+          type="number"
+          id="refrigerante"
+          placeholder="Valor do Litro do Refriferante" />
+        <input type="number" id="água" placeholder="Valor do Litro da água" />
+        <input
+          type="number"
+          id="cerveja"
+          placeholder="Valor do Litro da Cerveja" />
+        <button id="buttom_valores">Calcular</button>
+      </div>
+    </section>
+    <br />
+    <br />
+    <section id="total"></section>
+    <br />
+    <button id="buttom_return">LogOut</button>
+    <br />
+    <br />
+    <footer>
+      <div class="footer-content">
+        <p>Churrascômetro Online &copy; 2024</p>
+      </div>
+    </footer>
+    <script src="/js/tabela_churras.js"></script>
+  </body>
+</html>

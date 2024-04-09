@@ -1,0 +1,152 @@
+:root {
+  font-size: 62.5%;
+  --color1: #262525;
+  --color2: #525252;
+  --color3: #e6ddbc;
+  --color4: #822626;
+  --color5: #690202;
+}
+
+* {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: auto;
+}
+
+header {
+  width: 100%;
+  background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p3/6554435-realista-fogo-chama-com-reflexo-horizontal-fumaca-e-faiscas-no-fundo-preto-ilustracaoial-gratis-vetor.jpg");
+  background-size: contain;
+  background-blend-mode: hard-light;
+  height: 120px;
+}
+
+.namePage {
+  font-family: "Bungee Spice", sans-serif;
+  color: var(--color3);
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 30px;
+  height: 110px;
+  gap: 90px;
+}
+
+hr {
+  color: #525252;
+  border: none;
+  border-top: 5px solid #525252;
+}
+
+.titlePage {
+  font-family: "Bungee Spice", sans-serif;
+  padding-top: 10px;
+  background-color: #262525;
+  background-blend-mode: multiply;
+  height: 150px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titlePage h1 {
+  font-family: "Bungee Spice", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+}
+
+body {
+  background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p3/6554435-realista-fogo-chama-com-reflexo-horizontal-fumaca-e-faiscas-no-fundo-preto-ilustracaoial-gratis-vetor.jpg");
+  background-size: cover;
+}
+
+.pessoas {
+  width: 700px;
+  margin: 0 auto;
+  background-color: #525252;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  padding-bottom: 20px;
+}
+
+input {
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  width: 400px;
+  height: 40px;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-family: "Bungee Spice", sans-serif;
+  background-color: #e6ddbc;
+}
+
+.men {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.mulher {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.bebida {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+#button_people {
+  background-color: #e6ddbc;
+  width: 200px;
+  height: 50px;
+  margin: 0 auto;
+  display: block;
+  font-family: "Bungee Spice", sans-serif;
+}
+
+footer {
+  background-color: #262525;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  font-family: "Bungee Spice", sans-serif;
+  font-size: 2rem;
+}
+
+.footer-content p {
+  margin: 0;
+}

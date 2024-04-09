@@ -1,0 +1,199 @@
+:root {
+  font-size: 62.5%;
+  --color1: #262525;
+  --color2: #525252;
+  --color3: #e6ddbc;
+  --color4: #822626;
+  --color5: #690202;
+}
+
+* {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: auto;
+}
+
+body {
+  background-color: #822626
+}
+
+header {
+  width: 100%;
+  background-color: #690202;
+  height: 120px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  border-bottom: 1.8px solid black;
+}
+
+.namePage {
+  font-family: "Bungee Spice", sans-serif;
+  color: var(--color3);
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 30px;
+  height: 110px;
+  gap: 90px;
+}
+
+hr {
+  color: #262525;
+  border: none;
+  border-top: 5px solid #e6ddbc;
+}
+
+table,
+td,
+th {
+    
+  border-collapse: collapse;
+  margin: auto;
+  text-align: center;
+}
+td,
+th {
+  width: 140px;
+  height: 100px;
+  border: 2px solid black;
+}
+
+figure {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  background-color: #e6ddbc;
+}
+
+figcaption {
+  font-family: "Bungee Spice", sans-serif;
+  font-size: 1.5rem;
+  padding: 0.7rem 0.7rem 0.7rem 0.7rem;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  background-color: #660909;
+  width: 100%;
+}
+
+.item {
+  width: 100%;
+  height: 105px;
+  padding: 0.8rem;
+  border-radius: 1.5rem;
+}
+
+.text {
+  font-family: "Bungee Spice", sans-serif;
+  font-size: 2rem;
+  background-color: #f0e6cc;
+  background-size: contain;
+}
+
+.pessoas {
+  font-family: "Bungee Spice", sans-serif;
+  font-size: 2rem;
+  background-color: #660909;
+  padding: 7px;
+}
+
+
+.lista_preço {
+  display: flex;
+  background-size: cover;
+  background-image: url(https://img.freepik.com/vetores-premium/conjunto-de-icones-decorativos-de-afogamento-de-mao-de-churrasco-de-vetor-livre_847135-1375.jpg?size=626&ext=jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+  height: 450px;
+  margin: auto;
+  border-radius: 20px;
+  border: 5px solid black;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+input {
+  height: 30px;
+  width: 300px;
+  text-align: center;
+  border-radius: 10px;
+  font-family: "Bungee Spice", sans-serif;
+  display: flex;
+  background-color: #262525
+
+}
+
+input::placeholder {
+  font-family: "Bungee Spice", sans-serif;
+}
+
+#buttom_valores {
+  background-color: #e6ddbc;
+  width: 200px;
+  height: 50px;
+  margin: 0 auto;
+  display: block;
+  font-family: "Bungee Spice", sans-serif;
+}
+
+#buttom_return {
+    background-color: #525252;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+    font-family: "Bungee Spice", sans-serif;
+  }
+
+.valor {
+  height: 400px;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 1000px;
+  background-color: #690202;
+  border: 5px solid black;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  color: white;
+  border-radius: 10px;
+ flex-direction: column;
+ font-size: 2rem;
+}
+
+footer {
+   background-color: #262525;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    font-family: "Bungee Spice", sans-serif;
+    font-size: 2rem;
+  }
+  
+  .footer-content p {
+    margin: 0;
+  }
+  
